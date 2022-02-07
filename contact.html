@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/shared.css" />
+    <link rel="stylesheet" href="./CSS/contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+    />
+    <title>Contact-Bog'lanish</title>
+  </head>
+  <body>
+    <!-- Header section  -->
+
+    <header class="main-header">
+      <div class="container">
+        <div class="main-header__brand">
+          <a href="./index.html">
+            <img src="./images/logo.png" alt="Logo img" />
+          </a>
+        </div>
+        <nav class="main-navigation">
+          <ul class="main-navigation-items">
+            <li class="main-navigation__item">
+              <a href="./index.html">Asosiy</a>
+            </li>
+            <li class="main-navigation__item">
+              <a href="#">Men haqimda</a>
+            </li>
+            <li class="main-navigation__item">
+              <a href="#">Hizmatlar</a>
+            </li>
+            <li class="main-navigation__item">
+              <a href="#">Mijozlar</a>
+            </li>
+            <li class="main-navigation__item">
+              <a href="#">Portfolio</a>
+            </li>
+            <li class="main-navigation__item">
+              <a href="#">Blog</a>
+            </li>
+            <li class="main-navigation__item active">
+              <a href="#">Sheriklar</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- /Header section  -->
+    <div class="container">
+      <section class="contact">
+        <div class="section-title">Men bilan bog'laning</div>
+        <form action="/server.php" method="GET">
+          <textarea
+            name="message"
+            rows="20"
+            placeholder="Xabaringizni kiriting"
+          ></textarea>
+          <div class="half-flex">
+            <div class="contact__firstname">
+              <input
+                type="text"
+                placeholder="Ismingizni kiriting"
+                name="firstname"
+              />
+            </div>
+            <div class="contact__email">
+              <input
+                type="email"
+                placeholder="Emailingizni kiriting"
+                name="email"
+                class="contact-__firstname"
+              />
+            </div>
+          </div>
+          <input
+            type="text"
+            placeholder="Xat mazmuni"
+            name="subject"
+          />
+          <button class="button contact-send" type="submit">
+            Xabar jo'natish
+          </button>
+        </form>
+      </section>
+    </div>
+    <!--Footer section-->
+    <footer class="footer">
+      <div class="container">
+        <nav class="footer__navigation">
+          <img src="./images/logo.png" alt="" />
+          <ul class="footer-navigation__items">
+            <li class="footer-navigation__item">
+              <a href="./index.html">Asosiy</a>
+            </li>
+            <li class="footer-navigation__item">
+              <a href="#">Men haqimda</a>
+            </li>
+            <li class="footer-navigation__item">
+              <a href="#">Hizmatlar</a>
+            </li>
+            <li class="footer-navigation__item">
+              <a href="#">Mijozlar</a>
+            </li>
+            <li class="footer-navigation__item">
+              <a href="#">Portfolio</a>
+            </li>
+            <li class="footer-navigation__item">
+              <a href="#">Blog</a>
+            </li>
+            <li class="footer-navigation__item">
+              <a href="#">Sheriklar</a>
+            </li>
+            <li class="footer-navigation__item">
+              <a href="./contact.html">Bog'lanish</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="footer-socials">
+          <li class="footer-social">
+            <a href="#">
+              <i class="fab fa-telegram"></i>
+            </a>
+          </li>
+          <li class="footer-social">
+            <a href="#">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li class="footer-social">
+            <a href="#">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+        </ul>
+        <p class="footer-text">
+          Copyright ©2022 All rights reserved | For more
+          <span class="footer-text-item"> SHEN Technology</span>
+        </p>
+      </div>
+    </footer>
+    <!--/Footer section-->
+  </body>
+</html>
